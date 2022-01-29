@@ -5,7 +5,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { navigate } from '../navigation/navigationRef';
 
-const API_KEY = 'AIzaSyCwD0Nx_20aVrzuA2EwcliQ7eGAiKGhidc';
+import ENV from '../env/env';
+
+const API_KEY = ENV().googleApiKey;
 
 const authReducer = (state, action ) => {
     switch (action.type ) {
