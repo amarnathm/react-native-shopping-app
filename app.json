@@ -1,14 +1,18 @@
 {
   "expo": {
-    "name": "shopping-app",
+    "name": "Shopping App",
+    "description": "Demo of a shopping app",
     "slug": "shopping-app",
+    "privacy": "public",
+    "owner": "comparapoll",
+    "sdkVersion" : "42.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#171717"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,9 +21,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier" : "com.comparapoll.shoppingapp",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package" : "com.comparapoll.shoppingapp",
+      "versionCode" : 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
